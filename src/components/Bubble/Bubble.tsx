@@ -1,7 +1,7 @@
 import React from 'react';
 import './Bubble.css';
 
-//The Bubble class accepts 4 inputs: 
+//The Bubble class accepts 6 inputs: 
 // 1. size (which = circle circumference)
 // 2. position from left edge
 // 3. position from top edge
