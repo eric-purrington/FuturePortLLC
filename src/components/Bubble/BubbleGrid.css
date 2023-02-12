@@ -1,0 +1,44 @@
+.bubble-grid{
+    position: absolute;
+    top: 0;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    height: 800px;
+}
+
+/* Use bubble-index class to see the outline of the box within the grid. This helps with placement. */
+/* .bubble-index{
+    background-color: blue;
+    border: 5px solid white;
+} */
+
+.bubble-index.one{
+    grid-area: 2 / 2;
+}
+.bubble-index.two{
+    grid-area: 3 / 1;
+}
+.bubble-index.three{
+    grid-area: 3 / 2;
+}
+
+@media only screen and (min-width: 700px) {
+    .bubble-grid{
+        width: 80%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+    
+    .bubble-index.one{
+        grid-area: 2 / 3;
+    }
+    .bubble-index.two{
+        grid-area: 3 / 2;
+    }
+    .bubble-index.three{
+        grid-area: 3 / 3;
+    }
+    
+}
