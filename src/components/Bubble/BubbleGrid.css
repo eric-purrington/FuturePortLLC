@@ -9,10 +9,10 @@
 }
 
 /* Use bubble-index class to see the outline of the box within the grid. This helps with placement. */
-.bubble-index{
-    /* background-color: blue;
-    border: 5px solid white; */
-}
+/* .bubble-index{
+    background-color: blue;
+    border: 5px solid white;
+} */
 
 .bubble-index.one{
     grid-area: 2 / 2;
